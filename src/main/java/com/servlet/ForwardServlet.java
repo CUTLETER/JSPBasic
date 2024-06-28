@@ -33,9 +33,9 @@ public class ForwardServlet extends HttpServlet {
 		
 		// 아이디, 패스워드는 적절하게 사용하고
 		System.out.println(id + ", "+pw);
-		// 아이디에 해당하는 유저 정보를 담아서 화면에 보내겠다
+		// 아이디에 해당하는 유저 정보를 담아서 콘솔에 띄움
 		
-		// 다음 페이지에서 사용할 일회성 데이터를 request 중간에 끼워 넣음
+		// 다음 페이지에서 사용할 일회성 데이터를 request 중간에 끼워 넣음 setAttribute setAttribute setAttribute
 		request.setAttribute("name", "홍길동");
 		
 		// forward로 ex04로 데이터 넘김, 자바에서 forward 문법을 사용하는 법
