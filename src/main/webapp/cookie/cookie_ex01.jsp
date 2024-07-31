@@ -32,7 +32,6 @@
 		<input type="submit" value="확인">
 		<input type="checkbox" value="check" name="check">아이디 기억하기
 	</form>
-	
 
 </body>
 </html>

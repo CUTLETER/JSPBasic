@@ -25,6 +25,6 @@
 	<%=id %>(<%=nick %>) 님 환영합니다.
 	<br>
 	<br>
-	<a href="session_ex01.jsp">로그아웃</a>
+	<a href="session_ex01_logout.jsp">로그아웃</a>
 </body>
 </html>
